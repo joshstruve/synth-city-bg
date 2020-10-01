@@ -68,8 +68,8 @@ function init() {
       //transparent:true,
       //roughness: 0.3,
       //metalness: 1,
-      flatShading: THREE.SmoothShading,
-      //shading:THREE.FlatShading,
+//       shading: THREE.SmoothShading,
+      shading:THREE.FlatShading,
       side:THREE.DoubleSide});
     var wmaterial = new THREE.MeshLambertMaterial({
       color:0x000a12,
@@ -118,8 +118,8 @@ function init() {
   var pmaterial = new THREE.MeshPhongMaterial({
     color:0x000000,
     side:THREE.DoubleSide,
-    roughness: 10,
-    metalness: 0.6,
+//     roughness: 10,
+//     metalness: 0.6,
     opacity:0.9,
     transparent:true});
   var pgeometry = new THREE.PlaneGeometry(60,60);
