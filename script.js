@@ -63,7 +63,7 @@ function init() {
     var geometry = new THREE.CubeGeometry(1,1,1,segments,segments,segments);
     var material = new THREE.MeshStandardMaterial({
       color:setTintColor(),
-      wireframe:true,
+      wireframe:false,
       //opacity:0.9,
       //transparent:true,
       //roughness: 0.3,
