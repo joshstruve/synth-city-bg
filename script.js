@@ -21,7 +21,7 @@ function onWindowResize() {
 
 var camera = new THREE.PerspectiveCamera( 20, window.innerWidth / window.innerHeight, 1, 500 );
 
-camera.position.set(0, 6, 19);
+camera.position.set(0, 19, 19);
 
 var scene = new THREE.Scene();
 var city = new THREE.Object3D();
