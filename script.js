@@ -35,7 +35,7 @@ var uSpeed = 0.001;
 var setcolor = 0x263238;
 
 scene.background = new THREE.Color(setcolor);
-scene.fog = new THREE.Fog(setcolor, 11, 17);
+scene.fog = new THREE.Fog(setcolor, 6, 12);
 scene.fog = new THREE.FogExp2(setcolor, 0.05);
 
 // random function
